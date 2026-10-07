@@ -1,0 +1,22 @@
+{
+  "name": "plan-lekcji",
+  "version": "1.0.0",
+  "description": "Plan lekcji i zastępstwa z EduPage w czytelnej formie, z powiadomieniami o zmianach",
+  "author": "Kacper Studio (https://github.com/xmoviesmovies103-hash)",
+  "main": "server.js",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run.js && node test/mock-edupage.js && node test/server-test.js && node test/worker-test.mjs && node test/push-test.mjs",
+    "check": "node scripts/check.js",
+    "offline-demo": "node scripts/seed-from-fixtures.js && node server.js --offline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xmoviesmovies103-hash/plan-lekcji.git"
+  }
+}
