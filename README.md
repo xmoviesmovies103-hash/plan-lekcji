@@ -202,38 +202,6 @@ Jeśli kiedyś główna droga przestanie działać, wersja B może użyć przegl
 
 ---
 
-## Repozytorium na GitHubie (dla właściciela)
-
-Do wrzucania zmian służy program **GitHub Desktop** (https://desktop.github.com).
-Sam pomija pliki prywatne wypisane w `.gitignore`:
-
-| Nie trafia do repozytorium | Co to jest |
-|---|---|
-| `NOTES.md` | prywatne notatki robocze |
-| `data/` | ustawienia (adres szkoły) i kopia danych z EduPage |
-| `dist/` | podgląd strony zbudowany do testów |
-| `node_modules/` | pobrane biblioteki |
-
-### Pierwsze wrzucenie
-1. Zainstaluj GitHub Desktop i zaloguj się na swoje konto GitHub.
-2. Rozpakuj projekt do nowego, pustego folderu, np. `Dokumenty\GitHub\plan-lekcji`.
-3. **File → Add local repository** → wybierz ten folder → kliknij link **create a repository**.
-   Nazwy nie zmieniaj (musi być taka jak folder), **Git ignore** i **License** zostaw na **None**,
-   nie zaznaczaj „Initialize this repository with a README” → **Create repository**.
-4. Zakładka **History** → kliknij **Initial commit** i przejrzyj listę plików.
-   Nie może tam być `NOTES.md` ani folderów `data` i `dist`.
-5. **Publish repository** → odznacz „Keep this code private” → **Publish repository**.
-
-### Kolejne zmiany
-1. Podmień pliki w folderze repozytorium.
-2. W GitHub Desktop sprawdź listę zmienionych plików (zakładka **Changes**). Jeśli widzisz
-   coś, czego nie chcesz publikować, kliknij to prawym przyciskiem → **Ignore file**.
-3. Wpisz krótki opis zmiany → **Commit to main** → **Push origin**.
-
-Jeśli prywatny plik trafi jednak na GitHuba, usunięcie go w kolejnej zmianie nie wystarczy,
-bo zostaje w historii. Trzeba wtedy wyczyścić historię repozytorium albo usunąć repozytorium
-i wrzucić projekt od nowa.
-
 ## Dla programisty
 
 ```
