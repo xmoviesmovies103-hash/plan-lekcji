@@ -1,0 +1,1665 @@
+{
+ "r": {
+  "dbiAccessorRes": {
+   "type": "dbi",
+   "tables": [
+    {
+     "id": "globals",
+     "def": {
+      "id": "globals",
+      "name": "globals"
+     },
+     "data_rows": [
+      {
+       "id": "1",
+       "tt_num": "346",
+       "tt_datefrom": "2026-09-14"
+      }
+     ]
+    },
+    {
+     "id": "periods",
+     "def": {
+      "id": "periods",
+      "name": "periods"
+     },
+     "data_rows": [
+      {
+       "id": "1",
+       "period": "1",
+       "name": "1",
+       "short": "1",
+       "starttime": "08:00",
+       "endtime": "08:45"
+      },
+      {
+       "id": "2",
+       "period": "2",
+       "name": "2",
+       "short": "2",
+       "starttime": "08:50",
+       "endtime": "09:35"
+      },
+      {
+       "id": "3",
+       "period": "3",
+       "name": "3",
+       "short": "3",
+       "starttime": "09:40",
+       "endtime": "10:25"
+      },
+      {
+       "id": "4",
+       "period": "4",
+       "name": "4",
+       "short": "4",
+       "starttime": "10:40",
+       "endtime": "11:25"
+      },
+      {
+       "id": "5",
+       "period": "5",
+       "name": "5",
+       "short": "5",
+       "starttime": "11:30",
+       "endtime": "12:15"
+      },
+      {
+       "id": "6",
+       "period": "6",
+       "name": "6",
+       "short": "6",
+       "starttime": "12:25",
+       "endtime": "13:10"
+      },
+      {
+       "id": "7",
+       "period": "7",
+       "name": "7",
+       "short": "7",
+       "starttime": "13:15",
+       "endtime": "14:00"
+      },
+      {
+       "id": "8",
+       "period": "8",
+       "name": "8",
+       "short": "8",
+       "starttime": "14:05",
+       "endtime": "14:50"
+      },
+      {
+       "id": "9",
+       "period": "9",
+       "name": "9",
+       "short": "9",
+       "starttime": "14:55",
+       "endtime": "15:40"
+      },
+      {
+       "id": "10",
+       "period": "10",
+       "name": "10",
+       "short": "10",
+       "starttime": "15:45",
+       "endtime": "16:30"
+      },
+      {
+       "id": "11",
+       "period": "11",
+       "name": "11",
+       "short": "11",
+       "starttime": "16:40",
+       "endtime": "17:25"
+      },
+      {
+       "id": "12",
+       "period": "12",
+       "name": "12",
+       "short": "12",
+       "starttime": "17:30",
+       "endtime": "18:15"
+      },
+      {
+       "id": "13",
+       "period": "13",
+       "name": "13",
+       "short": "13",
+       "starttime": "18:20",
+       "endtime": "19:05"
+      },
+      {
+       "id": "14",
+       "period": "14",
+       "name": "14",
+       "short": "14",
+       "starttime": "19:10",
+       "endtime": "19:55"
+      }
+     ]
+    },
+    {
+     "id": "days",
+     "def": {
+      "id": "days",
+      "name": "days"
+     },
+     "data_rows": [
+      {
+       "id": "0",
+       "name": "Poniedziałek",
+       "short": "Pn"
+      },
+      {
+       "id": "1",
+       "name": "Wtorek",
+       "short": "Wt"
+      },
+      {
+       "id": "2",
+       "name": "Środa",
+       "short": "Śr"
+      },
+      {
+       "id": "3",
+       "name": "Czwartek",
+       "short": "Czw"
+      },
+      {
+       "id": "4",
+       "name": "Piątek",
+       "short": "Pi"
+      }
+     ]
+    },
+    {
+     "id": "daysdefs",
+     "def": {
+      "id": "daysdefs",
+      "name": "daysdefs"
+     },
+     "data_rows": [
+      {
+       "id": "*1",
+       "vals": [
+        "10000"
+       ]
+      },
+      {
+       "id": "*2",
+       "vals": [
+        "01000"
+       ]
+      },
+      {
+       "id": "*3",
+       "vals": [
+        "00100"
+       ]
+      },
+      {
+       "id": "*4",
+       "vals": [
+        "00010"
+       ]
+      },
+      {
+       "id": "*5",
+       "vals": [
+        "00001"
+       ]
+      },
+      {
+       "id": "*6",
+       "vals": [
+        "10000",
+        "01000",
+        "00100",
+        "00010",
+        "00001"
+       ]
+      },
+      {
+       "id": "*7",
+       "vals": [
+        "11111"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "weeksdefs",
+     "def": {
+      "id": "weeksdefs",
+      "name": "weeksdefs"
+     },
+     "data_rows": [
+      {
+       "id": "*1",
+       "typ": "one",
+       "vals": [
+        "1"
+       ]
+      },
+      {
+       "id": "*2",
+       "typ": "any",
+       "vals": [
+        "1"
+       ]
+      },
+      {
+       "id": "*3",
+       "typ": "all",
+       "vals": [
+        "1"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "weeks",
+     "def": {
+      "id": "weeks",
+      "name": "weeks"
+     },
+     "data_rows": [
+      {
+       "id": "0",
+       "name": "Tydzień A",
+       "short": "A"
+      }
+     ]
+    },
+    {
+     "id": "classes",
+     "def": {
+      "id": "classes",
+      "name": "classes"
+     },
+     "data_rows": [
+      {
+       "id": "-180",
+       "name": "1G Branżowa",
+       "short": "1G"
+      },
+      {
+       "id": "-184",
+       "name": "1F Technikum",
+       "short": "1F"
+      }
+     ]
+    },
+    {
+     "id": "subjects",
+     "def": {
+      "id": "subjects",
+      "name": "subjects"
+     },
+     "data_rows": [
+      {
+       "id": "-98",
+       "name": "Biologia",
+       "short": "bio"
+      },
+      {
+       "id": "-141",
+       "name": "Biznes i zarządzanie",
+       "short": "biz"
+      },
+      {
+       "id": "-99",
+       "name": "Chemia",
+       "short": "che"
+      },
+      {
+       "id": "-100",
+       "name": "Edukacja dla bezpieczeństwa",
+       "short": "edb"
+      },
+      {
+       "id": "-177",
+       "name": "Edukacja zdrowotna",
+       "short": "ez"
+      },
+      {
+       "id": "-101",
+       "name": "Fizyka",
+       "short": "fiz"
+      },
+      {
+       "id": "-102",
+       "name": "Geografia",
+       "short": "geo"
+      },
+      {
+       "id": "-89",
+       "name": "Historia",
+       "short": "his"
+      },
+      {
+       "id": "-111",
+       "name": "Informatyka",
+       "short": "inf"
+      },
+      {
+       "id": "-96",
+       "name": "Język angielski",
+       "short": "ja"
+      },
+      {
+       "id": "-120",
+       "name": "język angielski w branży informatycznej",
+       "short": "jawbi"
+      },
+      {
+       "id": "-97",
+       "name": "Język niemiecki",
+       "short": "jn"
+      },
+      {
+       "id": "-27",
+       "name": "Język polski",
+       "short": "jp"
+      },
+      {
+       "id": "-28",
+       "name": "Matematyka",
+       "short": "mat"
+      },
+      {
+       "id": "-127",
+       "name": "nauka programowania",
+       "short": "npr"
+      },
+      {
+       "id": "-31",
+       "name": "Religia",
+       "short": "rel"
+      },
+      {
+       "id": "-68",
+       "name": "systemy baz danych",
+       "short": "sbd"
+      },
+      {
+       "id": "-133",
+       "name": "systemy operacyjne i sieci komputerowe",
+       "short": "soisk"
+      },
+      {
+       "id": "-123",
+       "name": "urządzenia techniki komputerowej",
+       "short": "utk"
+      },
+      {
+       "id": "-9",
+       "name": "Wychowanie fizyczne",
+       "short": "wf"
+      },
+      {
+       "id": "-33",
+       "name": "Witryny i aplikacje internetowe",
+       "short": "wiai"
+      },
+      {
+       "id": "-10",
+       "name": "zajęcia z wychowawcą",
+       "short": "zwo"
+      }
+     ]
+    },
+    {
+     "id": "teachers",
+     "def": {
+      "id": "teachers",
+      "name": "teachers"
+     },
+     "data_rows": [
+      {
+       "id": "-4",
+       "name": "Klonik Lidia",
+       "short": "IB"
+      },
+      {
+       "id": "-177",
+       "name": "Wierzbiak Edyta",
+       "short": "FO"
+      },
+      {
+       "id": "-13",
+       "name": "Jesionek Bożena",
+       "short": "MG"
+      },
+      {
+       "id": "-169",
+       "name": "Topolak Jerzy",
+       "short": "PG"
+      },
+      {
+       "id": "-158",
+       "name": "Wiązek Marek",
+       "short": "SG"
+      },
+      {
+       "id": "-17",
+       "name": "Cisak Edward",
+       "short": "JH"
+      },
+      {
+       "id": "-20",
+       "name": "Malinek Alicja",
+       "short": "JS"
+      },
+      {
+       "id": "-120",
+       "name": "Leszczak Feliks",
+       "short": "JE"
+      },
+      {
+       "id": "-22",
+       "name": "Głogiak Henryk",
+       "short": "MK"
+      },
+      {
+       "id": "-102",
+       "name": "Orzeszek Celina",
+       "short": "KE"
+      },
+      {
+       "id": "-171",
+       "name": "Morelak Damian",
+       "short": "BK"
+      },
+      {
+       "id": "-37",
+       "name": "Agrestek Felicja",
+       "short": "DK"
+      },
+      {
+       "id": "-138",
+       "name": "Bzowiak Irena",
+       "short": "EM"
+      },
+      {
+       "id": "-151",
+       "name": "Paprotek Ignacy",
+       "short": "MI"
+      },
+      {
+       "id": "-178",
+       "name": "Tatarak Henryk",
+       "short": "PL"
+      },
+      {
+       "id": "-48",
+       "name": "Rumianek Oskar",
+       "short": "WP"
+      },
+      {
+       "id": "-49",
+       "name": "Miętek Ignacy",
+       "short": "PP"
+      },
+      {
+       "id": "-162",
+       "name": "Chabrak Celina",
+       "short": "AR"
+      },
+      {
+       "id": "-105",
+       "name": "Fiołek Danuta",
+       "short": "SO"
+      }
+     ]
+    },
+    {
+     "id": "groups",
+     "def": {
+      "id": "groups",
+      "name": "groups"
+     },
+     "data_rows": [
+      {
+       "id": "*28",
+       "name": "Cała klasa",
+       "classid": "-184",
+       "entireclass": true,
+       "divisionid": "-184:"
+      },
+      {
+       "id": "*146",
+       "name": "1",
+       "classid": "-184",
+       "entireclass": false,
+       "divisionid": "-184:1"
+      },
+      {
+       "id": "*147",
+       "name": "2",
+       "classid": "-184",
+       "entireclass": false,
+       "divisionid": "-184:1"
+      },
+      {
+       "id": "*217",
+       "name": "rel",
+       "classid": "-184",
+       "entireclass": false,
+       "divisionid": "-184:2"
+      }
+     ]
+    },
+    {
+     "id": "classrooms",
+     "def": {
+      "id": "classrooms",
+      "name": "classrooms"
+     },
+     "data_rows": [
+      {
+       "id": "-85",
+       "name": "004",
+       "short": "004"
+      },
+      {
+       "id": "-87",
+       "name": "006",
+       "short": "006"
+      },
+      {
+       "id": "-6",
+       "name": "101",
+       "short": "101"
+      },
+      {
+       "id": "-7",
+       "name": "103",
+       "short": "103"
+      },
+      {
+       "id": "-8",
+       "name": "104",
+       "short": "104"
+      },
+      {
+       "id": "-9",
+       "name": "105",
+       "short": "105"
+      },
+      {
+       "id": "-13",
+       "name": "201",
+       "short": "201"
+      },
+      {
+       "id": "-14",
+       "name": "203",
+       "short": "203"
+      },
+      {
+       "id": "-15",
+       "name": "204",
+       "short": "204"
+      },
+      {
+       "id": "-16",
+       "name": "205",
+       "short": "205"
+      },
+      {
+       "id": "-17",
+       "name": "206",
+       "short": "206"
+      },
+      {
+       "id": "-18",
+       "name": "207",
+       "short": "207"
+      },
+      {
+       "id": "-72",
+       "name": "208",
+       "short": "208"
+      },
+      {
+       "id": "-90",
+       "name": "sg",
+       "short": "sg"
+      },
+      {
+       "id": "-27",
+       "name": "w108",
+       "short": "w108"
+      },
+      {
+       "id": "-31",
+       "name": "w208",
+       "short": "w208"
+      },
+      {
+       "id": "-33",
+       "name": "w211",
+       "short": "w211"
+      },
+      {
+       "id": "-55",
+       "name": "sw",
+       "short": "sw"
+      }
+     ]
+    },
+    {
+     "id": "lessons",
+     "def": {
+      "id": "lessons",
+      "name": "lessons"
+     },
+     "data_rows": [
+      {
+       "id": "*202",
+       "subjectid": "-98",
+       "teacherids": [
+        "-4"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*203",
+       "subjectid": "-141",
+       "teacherids": [
+        "-37"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*204",
+       "subjectid": "-99",
+       "teacherids": [
+        "-105"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*205",
+       "subjectid": "-100",
+       "teacherids": [
+        "-169"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*206",
+       "subjectid": "-177",
+       "teacherids": [
+        "-162"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*207",
+       "subjectid": "-101",
+       "teacherids": [
+        "-22"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*208",
+       "subjectid": "-102",
+       "teacherids": [
+        "-13"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*209",
+       "subjectid": "-89",
+       "teacherids": [
+        "-17"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*210",
+       "subjectid": "-96",
+       "teacherids": [
+        "-102"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 2,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*211",
+       "subjectid": "-120",
+       "teacherids": [
+        "-177"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*212",
+       "subjectid": "-97",
+       "teacherids": [
+        "-17"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 2,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*213",
+       "subjectid": "-27",
+       "teacherids": [
+        "-48"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 3,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*214",
+       "subjectid": "-28",
+       "teacherids": [
+        "-20"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 3,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*215",
+       "subjectid": "-31",
+       "teacherids": [
+        "-138"
+       ],
+       "groupids": [
+        "*217"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*216",
+       "subjectid": "-9",
+       "teacherids": [
+        "-171"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 3,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*217",
+       "subjectid": "-10",
+       "teacherids": [
+        "-171"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*218",
+       "subjectid": "-127",
+       "teacherids": [
+        "-178"
+       ],
+       "groupids": [
+        "*146"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*219",
+       "subjectid": "-68",
+       "teacherids": [
+        "-120"
+       ],
+       "groupids": [
+        "*146"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 3,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*220",
+       "subjectid": "-133",
+       "teacherids": [
+        "-158"
+       ],
+       "groupids": [
+        "*146"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 2,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*221",
+       "subjectid": "-123",
+       "teacherids": [
+        "-49"
+       ],
+       "groupids": [
+        "*146"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*222",
+       "subjectid": "-33",
+       "teacherids": [
+        "-178"
+       ],
+       "groupids": [
+        "*146"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 3,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*223",
+       "subjectid": "-111",
+       "teacherids": [
+        "-49"
+       ],
+       "groupids": [
+        "*28"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 2,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*224",
+       "subjectid": "-127",
+       "teacherids": [
+        "-151"
+       ],
+       "groupids": [
+        "*147"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*225",
+       "subjectid": "-68",
+       "teacherids": [
+        "-22"
+       ],
+       "groupids": [
+        "*147"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 3,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*226",
+       "subjectid": "-133",
+       "teacherids": [
+        "-158"
+       ],
+       "groupids": [
+        "*147"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 2,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*227",
+       "subjectid": "-123",
+       "teacherids": [
+        "-49"
+       ],
+       "groupids": [
+        "*147"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 1,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      },
+      {
+       "id": "*228",
+       "subjectid": "-33",
+       "teacherids": [
+        "-151"
+       ],
+       "groupids": [
+        "*147"
+       ],
+       "classids": [
+        "-184"
+       ],
+       "count": 3,
+       "durationperiods": 1,
+       "termsdefid": "*3",
+       "weeksdefid": "*3",
+       "daysdefid": "*6"
+      }
+     ]
+    },
+    {
+     "id": "cards",
+     "def": {
+      "id": "cards",
+      "name": "cards"
+     },
+     "data_rows": [
+      {
+       "id": "*900",
+       "lessonid": "*202",
+       "locked": false,
+       "period": "5",
+       "days": "01000",
+       "weeks": "1",
+       "classroomids": [
+        "-9"
+       ]
+      },
+      {
+       "id": "*901",
+       "lessonid": "*203",
+       "locked": false,
+       "period": "2",
+       "days": "00001",
+       "weeks": "1",
+       "classroomids": [
+        "-33"
+       ]
+      },
+      {
+       "id": "*902",
+       "lessonid": "*204",
+       "locked": false,
+       "period": "8",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-7"
+       ]
+      },
+      {
+       "id": "*903",
+       "lessonid": "*205",
+       "locked": false,
+       "period": "8",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-6"
+       ]
+      },
+      {
+       "id": "*904",
+       "lessonid": "*206",
+       "locked": false,
+       "period": "5",
+       "days": "00001",
+       "weeks": "1",
+       "classroomids": [
+        "-31"
+       ]
+      },
+      {
+       "id": "*905",
+       "lessonid": "*207",
+       "locked": false,
+       "period": "2",
+       "days": "10000",
+       "weeks": "1",
+       "classroomids": [
+        "-17"
+       ]
+      },
+      {
+       "id": "*906",
+       "lessonid": "*208",
+       "locked": false,
+       "period": "4",
+       "days": "01000",
+       "weeks": "1",
+       "classroomids": [
+        "-8"
+       ]
+      },
+      {
+       "id": "*907",
+       "lessonid": "*209",
+       "locked": false,
+       "period": "7",
+       "days": "10000",
+       "weeks": "1",
+       "classroomids": [
+        "-6"
+       ]
+      },
+      {
+       "id": "*908",
+       "lessonid": "*210",
+       "locked": false,
+       "period": "5",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-27"
+       ]
+      },
+      {
+       "id": "*909",
+       "lessonid": "*210",
+       "locked": false,
+       "period": "1",
+       "days": "00001",
+       "weeks": "1",
+       "classroomids": [
+        "-31"
+       ]
+      },
+      {
+       "id": "*910",
+       "lessonid": "*211",
+       "locked": false,
+       "period": "2",
+       "days": "01000",
+       "weeks": "1",
+       "classroomids": [
+        "-85"
+       ]
+      },
+      {
+       "id": "*911",
+       "lessonid": "*212",
+       "locked": false,
+       "period": "7",
+       "days": "01000",
+       "weeks": "1",
+       "classroomids": [
+        "-6"
+       ]
+      },
+      {
+       "id": "*912",
+       "lessonid": "*212",
+       "locked": false,
+       "period": "4",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-6"
+       ]
+      },
+      {
+       "id": "*913",
+       "lessonid": "*213",
+       "locked": false,
+       "period": "6",
+       "days": "01000",
+       "weeks": "1",
+       "classroomids": [
+        "-85"
+       ]
+      },
+      {
+       "id": "*914",
+       "lessonid": "*213",
+       "locked": false,
+       "period": "1",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-87"
+       ]
+      },
+      {
+       "id": "*915",
+       "lessonid": "*213",
+       "locked": false,
+       "period": "7",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-87"
+       ]
+      },
+      {
+       "id": "*916",
+       "lessonid": "*214",
+       "locked": false,
+       "period": "3",
+       "days": "01000",
+       "weeks": "1",
+       "classroomids": [
+        "-87"
+       ]
+      },
+      {
+       "id": "*917",
+       "lessonid": "*214",
+       "locked": false,
+       "period": "4",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-16"
+       ]
+      },
+      {
+       "id": "*918",
+       "lessonid": "*214",
+       "locked": false,
+       "period": "5",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-16"
+       ]
+      },
+      {
+       "id": "*919",
+       "lessonid": "*215",
+       "locked": false,
+       "period": "3",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-72"
+       ]
+      },
+      {
+       "id": "*920",
+       "lessonid": "*216",
+       "locked": false,
+       "period": "9",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-55"
+       ]
+      },
+      {
+       "id": "*921",
+       "lessonid": "*216",
+       "locked": false,
+       "period": "3",
+       "days": "00001",
+       "weeks": "1",
+       "classroomids": [
+        "-90"
+       ]
+      },
+      {
+       "id": "*922",
+       "lessonid": "*216",
+       "locked": false,
+       "period": "4",
+       "days": "00001",
+       "weeks": "1",
+       "classroomids": [
+        "-90"
+       ]
+      },
+      {
+       "id": "*923",
+       "lessonid": "*217",
+       "locked": false,
+       "period": "6",
+       "days": "00001",
+       "weeks": "1",
+       "classroomids": [
+        "-87"
+       ]
+      },
+      {
+       "id": "*924",
+       "lessonid": "*218",
+       "locked": false,
+       "period": "1",
+       "days": "01000",
+       "weeks": "1",
+       "classroomids": [
+        "-18"
+       ]
+      },
+      {
+       "id": "*925",
+       "lessonid": "*219",
+       "locked": false,
+       "period": "3",
+       "days": "10000",
+       "weeks": "1",
+       "classroomids": [
+        "-15"
+       ]
+      },
+      {
+       "id": "*926",
+       "lessonid": "*219",
+       "locked": false,
+       "period": "4",
+       "days": "10000",
+       "weeks": "1",
+       "classroomids": [
+        "-15"
+       ]
+      },
+      {
+       "id": "*927",
+       "lessonid": "*219",
+       "locked": false,
+       "period": "5",
+       "days": "10000",
+       "weeks": "1",
+       "classroomids": [
+        "-15"
+       ]
+      },
+      {
+       "id": "*928",
+       "lessonid": "*220",
+       "locked": false,
+       "period": "6",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-14"
+       ]
+      },
+      {
+       "id": "*929",
+       "lessonid": "*220",
+       "locked": false,
+       "period": "7",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-14"
+       ]
+      },
+      {
+       "id": "*930",
+       "lessonid": "*221",
+       "locked": false,
+       "period": "2",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-14"
+       ]
+      },
+      {
+       "id": "*931",
+       "lessonid": "*222",
+       "locked": false,
+       "period": "3",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-18"
+       ]
+      },
+      {
+       "id": "*932",
+       "lessonid": "*222",
+       "locked": false,
+       "period": "1",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-18"
+       ]
+      },
+      {
+       "id": "*933",
+       "lessonid": "*222",
+       "locked": false,
+       "period": "2",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-18"
+       ]
+      },
+      {
+       "id": "*934",
+       "lessonid": "*223",
+       "locked": false,
+       "period": "6",
+       "days": "10000",
+       "weeks": "1",
+       "classroomids": [
+        "-18"
+       ]
+      },
+      {
+       "id": "*935",
+       "lessonid": "*223",
+       "locked": false,
+       "period": "6",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-18"
+       ]
+      },
+      {
+       "id": "*936",
+       "lessonid": "*224",
+       "locked": false,
+       "period": "2",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-18"
+       ]
+      },
+      {
+       "id": "*937",
+       "lessonid": "*225",
+       "locked": false,
+       "period": "1",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-15"
+       ]
+      },
+      {
+       "id": "*938",
+       "lessonid": "*225",
+       "locked": false,
+       "period": "2",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-15"
+       ]
+      },
+      {
+       "id": "*939",
+       "lessonid": "*225",
+       "locked": false,
+       "period": "3",
+       "days": "00010",
+       "weeks": "1",
+       "classroomids": [
+        "-15"
+       ]
+      },
+      {
+       "id": "*940",
+       "lessonid": "*226",
+       "locked": false,
+       "period": "3",
+       "days": "10000",
+       "weeks": "1",
+       "classroomids": [
+        "-14"
+       ]
+      },
+      {
+       "id": "*941",
+       "lessonid": "*226",
+       "locked": false,
+       "period": "4",
+       "days": "10000",
+       "weeks": "1",
+       "classroomids": [
+        "-14"
+       ]
+      },
+      {
+       "id": "*942",
+       "lessonid": "*227",
+       "locked": false,
+       "period": "1",
+       "days": "10000",
+       "weeks": "1",
+       "classroomids": [
+        "-15"
+       ]
+      },
+      {
+       "id": "*943",
+       "lessonid": "*228",
+       "locked": false,
+       "period": "5",
+       "days": "10000",
+       "weeks": "1",
+       "classroomids": [
+        "-13"
+       ]
+      },
+      {
+       "id": "*944",
+       "lessonid": "*228",
+       "locked": false,
+       "period": "6",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-18"
+       ]
+      },
+      {
+       "id": "*945",
+       "lessonid": "*228",
+       "locked": false,
+       "period": "7",
+       "days": "00100",
+       "weeks": "1",
+       "classroomids": [
+        "-18"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

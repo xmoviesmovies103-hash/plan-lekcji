@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Plan lekcji</title>
+  <meta name="description" content="Plan lekcji i zastępstwa z EduPage w czytelnej formie">
+  <meta name="theme-color" content="#1f3b63">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Plan lekcji">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="icon" href="icon-192.png" type="image/png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <script>window.PLAN_CONFIG = window.PLAN_CONFIG || { apiBase: '' };</script>
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap head-in">
+      <div class="school">
+        <span class="school-name" id="schoolName" hidden></span>
+        <span class="site-name">Plan lekcji</span>
+      </div>
+      <nav class="head-nav" id="headNav" hidden>
+        <button class="head-link" id="classBtn" type="button"></button>
+        <button class="head-link" id="settingsBtn" type="button">Ustawienia</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap" id="app" hidden>
+    <div id="demoBar"></div>
+
+    <section class="now" id="now" aria-live="polite"></section>
+    <div id="pushCard"></div>
+    <div id="banner"></div>
+
+    <div class="days">
+      <button class="week-nav" id="prevWeek" type="button" aria-label="Poprzedni tydzień">‹</button>
+      <div class="day-tabs" id="dayTabs" role="tablist" aria-label="Dni tygodnia"></div>
+      <button class="week-nav" id="nextWeek" type="button" aria-label="Następny tydzień">›</button>
+    </div>
+
+    <div class="plan-head">
+      <h1 class="day-title" id="dayTitle"></h1>
+      <div class="switch" role="group" aria-label="Widok">
+        <button type="button" data-view="day" class="switch-btn">Dzień</button>
+        <button type="button" data-view="week" class="switch-btn">Tydzień</button>
+      </div>
+    </div>
+
+    <div id="groupPrompt"></div>
+    <section id="plan" class="plan"></section>
+
+    <div id="installHint" class="install-slot"></div>
+    <footer class="foot" id="foot"></footer>
+  </div>
+
+  <div class="wrap picker" id="picker" hidden>
+    <p class="picker-school" id="pickerSchool" hidden></p>
+    <h1>Do której klasy chodzisz?</h1>
+    <p class="picker-sub">Wybór zostanie zapamiętany na tym urządzeniu. Zmienisz go później w ustawieniach.</p>
+    <label class="search" for="classSearch">Szukaj klasy</label>
+    <input id="classSearch" type="search" placeholder="np. 1A" autocomplete="off">
+    <div id="classList" class="class-list"></div>
+    <button class="btn" id="pickerCancel" type="button" hidden>Wróć do planu</button>
+  </div>
+
+  <div class="wrap picker" id="setup" hidden>
+    <h1>Ustaw szkołę</h1>
+    <p class="picker-sub" id="setupLead"></p>
+    <label class="search" for="setupInput">Adres EduPage szkoły</label>
+    <input id="setupInput" class="text-input" type="text" inputmode="url" placeholder="mojaszkola.edupage.org" autocomplete="off" autocapitalize="off" spellcheck="false">
+    <p class="hint setup-hint">Adres znajdziesz na stronie szkoły albo w aplikacji EduPage. Ma postać <b>nazwa.edupage.org</b>.</p>
+    <div class="btns">
+      <button class="btn primary" id="setupSave" type="button" data-act="setup-save">Zapisz i sprawdź</button>
+      <button class="btn" id="setupCancel" type="button" data-act="setup-cancel" hidden>Anuluj</button>
+    </div>
+    <div id="setupHelp" class="setup-help"></div>
+  </div>
+
+  <dialog class="dlg" id="detail" aria-labelledby="detailTitle"></dialog>
+  <dialog class="dlg" id="settings" aria-labelledby="settingsTitle"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="core.js"></script>
+  <script src="plan-lib.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
